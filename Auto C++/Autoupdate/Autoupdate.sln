@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Autoupdate", "Autoupdate.vcxproj", "{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdateDLL", "..\UPDATEDLL\UpdateDLL.vcxproj", "{CEE4C59E-88EE-5F02-D38B-1F67A8D74857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}.Debug|Win32.Build.0 = Debug|Win32
+		{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}.Release|Win32.ActiveCfg = Release|Win32
+		{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}.Release|Win32.Build.0 = Release|Win32
+		{CEE4C59E-88EE-5F02-D38B-1F67A8D74857}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEE4C59E-88EE-5F02-D38B-1F67A8D74857}.Debug|Win32.Build.0 = Debug|Win32
+		{CEE4C59E-88EE-5F02-D38B-1F67A8D74857}.Release|Win32.ActiveCfg = Release|Win32
+		{CEE4C59E-88EE-5F02-D38B-1F67A8D74857}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

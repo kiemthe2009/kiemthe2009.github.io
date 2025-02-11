@@ -1,0 +1,58 @@
+Hướng dẫn về cách tạo dữ liệu nâng cấp trực tuyến:
+
+Chạy tệp Auto.bat
+Mô tả các tệp:
+- GenIndex.bat: Chương trình xử lý hàng loạt để tạo tệp Index.txt
+- IndexGen.exe: Chương trình tạo tệp Index.txt
+- CommonIndex.ini: Cấu hình chung để tạo tệp Index.txt
+- FileComment.ini: Mô tả tệp để tạo tệp Index.txt
+
+Hướng dẫn về cách cập nhật thông tin trong tệp Index.DAT:
+[COMMENT]
+NewUpdateSelfFirstFlag=1 // Cờ ưu tiên cập nhật chương trình nâng cấp phiên bản mới nhất trước
+UpdateSelfFirstFlag=1 // Cờ ưu tiên cập nhật chương trình nâng cấp phiên bản thứ hai trước
+UpdateSelfFirst=0 // Cờ ưu tiên cập nhật chương trình nâng cấp phiên bản ban đầu trước
+Readme= // Thông tin quan trọng cho người dùng
+
+[Install]
+Not used for now
+
+[Version]
+AppVersion0=SWOnline
+Version0=1                      // Số phiên bản của gói nâng cấp
+
+[ExitType]
+Not used for now                // Phương thức thoát/điều khiển các mô-đun chương trình (KCloseProgramMgr)
+
+[FileType]
+Not used for now
+
+Mô tả thông tin về tệp:       // Lưu ý, chỉ số thành công của tệp Version.cfg phải là mục cuối cùng trong danh sách tệp
+[1.exe]
+FileName=1.exe                  // Tên tệp
+Version=2002.12.16.1            // Số phiên bản của tệp, giá trị cụ thể phụ thuộc vào phương pháp Kiểm tra phiên bản
+FileSize=106573                 // Kích thước tệp
+CRC=2741011895                  // Giá trị kiểm tra CRC
+RemotePath=SWOnline/            // Đường dẫn tương đối từ xa (tương đối đối với đường dẫn tải xuống đã được cung cấp)
+LocalPath=%PROGRAMDIR%          // Thư mục cập nhật cục bộ, %PROGRAMDIR\XXX %TEMPDIR% %SYSTEMDIR% %WINDIR%
+UpdateFileFlag=1                // Cờ chỉ định thông tin cập nhật tệp
+UpdateFileMethod=Copy           // Phương pháp cập nhật tệp: Copy;Last;Package - các hành động phân tách bằng dấu chấm phẩy (;) ví dụ: Last;Copy
+Reboot=0                        // Cờ chỉ định liệu sau khi cập nhật tệp, có cần khởi động lại không
+CheckVersionMethod=5            // Phương pháp xác định xem có cần cập nhật hay không:
+                                  0 - Xác định phiên bản của tệp chương trình chuẩn
+                                  1 - Xác định phiên bản của tệp động cơ
+                                  2 - Xác định phiên bản của tệp thư viện virus
+                                  3 - Kiểm tra giá trị kiểm tra CRC
+                                  4 - Tải trực tiếp
+                                  5 - Tệp văn bản, không có thông tin phiên bản, sử dụng thời gian chỉnh sửa tệp làm số phiên bản
+                                  6 - Kiểm tra tiêu đề số seri
+SharedNeedReboot=1              // Cờ chỉ định liệu cần khởi động lại mạnh mẽ trong trường hợp xung đột cập nhật
+Description=                    // Mô tả tệp
+ApplyVersion=SWOnline           // Không sử dụng tạm thời
+FileType=Program                // Không sử dụng tạm thời
+UpdateRelative=0                // Cờ chỉ định thông tin cần cập nhật ưu tiên
+Belong=-1                       // Phiên bản cục bộ mà tệp áp dụng cho, <0 là tất cả phiên bản cục bộ, >=0 là phiên bản cục bộ cụ thể
+NeedDownload=1                  // Cờ chỉ định xem cần phải tải xuống hay không, nếu giá trị này là 1 và tải xuống tệp thất bại, thì không cập nhật tất cả các tệp đã tải xuống
+SNMask=                         // Không sử dụng tạm thời
+Comment=                        // Không sử dụng tạm thời
+CallBy=                         // Không sử dụng tạm thời

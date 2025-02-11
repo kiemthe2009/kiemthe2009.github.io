@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoupdateDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnuncePanel" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACEAAAAAAEAAABAAAAABAAAIACAAIAAAAAAQQAA=</HashCode>
+      <FileName>AnnuncePanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoupdateApp" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAACAAAIABAAAAAAQhAAAAAAAAAAA=</HashCode>
+      <FileName>Autoupdate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoupdateDlg" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAChACGiAFBABEBAIRIBBAEBoACMEEYGsC1AggAUQQI=</HashCode>
+      <FileName>AutoupdateDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultProcess" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAJAAAgAAAAAAAAAAAAAEAAAACAAAAAAg=</HashCode>
+      <FileName>DefaultProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOptionPanel" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABILEAAMAAAAAAABEgAABAIAAAEQAAQAAAAAAZAAA=</HashCode>
+      <FileName>GameOptionPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItermProcess" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAJAAAAgAAAAAAgAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>ItermProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItermProcessTypeCheck" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAEAAAQAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ItermProcessTypeCheck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientGameOptionProcess" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAZAAAAAAAAgAAAABAAIEAAAAAAAAAAAA=</HashCode>
+      <FileName>lientGameOptionProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RecordProcess" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAAAAABAAgBAAAAAAAAAAAAAAAAAECQAAAAAI=</HashCode>
+      <FileName>RecordProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSiteDlg" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAABAAAAAAAEAEAAAARAAAAAAAABA=</HashCode>
+      <FileName>SiteDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStartDlg" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWebBrowser2" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAMAiFCIyDIAAkogIAYwETgiAQuIEEMoIoQAEUYBYQ=</HashCode>
+      <FileName>webbrowser2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="UPDATEA_INIT" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoupdateDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UPDATE_UNINIT" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoupdateDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UPDATE_START" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoupdateDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UPDATE_CANCEL" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutoupdateDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TextSet" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lientGameOptionProcess.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ItermProcessSet" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RecordProcess.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

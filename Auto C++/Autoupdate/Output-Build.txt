@@ -1,0 +1,36 @@
+﻿1>------ Rebuild All started: Project: Autoupdate, Configuration: Debug Win32 ------
+1>Build started 05/19/2023 12:01:33 AM.
+1>_PrepareForClean:
+1>  Deleting file ".\Debug\Autoupdate.lastbuildstate".
+1>InitializeBuildStatus:
+1>  Touching ".\Debug\Autoupdate.unsuccessfulbuild".
+1>ClCompile:
+1>  StdAfx.cpp
+1>  webbrowser2.cpp
+1>  StartDlg.cpp
+1>  SiteDlg.cpp
+1>  RecordProcess.cpp
+1>  lientGameOptionProcess.cpp
+1>  ItermProcessTypeCheck.cpp
+1>  ItermProcess.cpp
+1>  HyperlinkStatic.cpp
+1>  GameOptionPanel.cpp
+1>  DefaultProcess.cpp
+1>  AutoupdateDlg.cpp
+1>  Autoupdate.cpp
+1>  AnnuncePanel.cpp
+1>  Generating Code...
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\Build\SourcesAutoUpdate\Autoupdate\.\Debug\Autoupdate.exe) does not match the Linker's OutputFile property value (G:\Build\SourcesAutoUpdate\Autoupdate\Debug\Jxonline.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Autoupdate) does not match the Linker's OutputFile property value (Jxonline). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+1>Manifest:
+1>  Deleting file ".\Debug\Autoupdate.exe.embed.manifest".
+1>LinkEmbedManifest:
+1>  Autoupdate.vcxproj -> G:\Build\SourcesAutoUpdate\Autoupdate\.\Debug\Autoupdate.exe
+1>FinalizeBuildStatus:
+1>  Deleting file ".\Debug\Autoupdate.unsuccessfulbuild".
+1>  Touching ".\Debug\Autoupdate.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:05.12
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

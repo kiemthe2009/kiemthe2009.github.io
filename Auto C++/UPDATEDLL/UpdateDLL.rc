@@ -1,0 +1,180 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\UpdateDLL.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2003,2,26,2
+ PRODUCTVERSION 2003,2,26,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Update Module\0"
+            VALUE "FileVersion", "2003, 2, 26, 2\0"
+            VALUE "InternalName", "Update.DLL\0"
+            VALUE "LegalCopyright", "Copyright (C) Kingsoft 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Update.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Update Dynamic Link Library\0"
+            VALUE "ProductVersion", "2003, 2, 26, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE_ERROR_FORMAT   "The file %s does not exist or is corrupted!"
+    IDS_ERROR_INDEX         "The information file (index.dat) in the selected upgrade folder has been destroyed. Please download the correct file through the Internet upgrade, or notify the network administrator to download the correct file through the Internet upgrade."
+    IDS_INDEX_ERROR         "An error occurred while parsing the downloaded upgrade information file. Please select another upgrade server to re-upgrade."
+    IDS_UPDATE_SELF_SUCCESS "Upgrade program priority update itself success!"
+    IDS_UPDATE_SELF_FAILED  "Upgrade program priority update itself failed! Please confirm whether the directory where the download file is stored is writable, or whether UpdateSelf.DAT in this directory can be modified, and then upgrade again!"
+    IDS_UPDATE_FAILED       "Failed to update %s to %s! Please upgrade again!"
+    IDS_NEED_RESET          "Update %s to %s succeeded and needs to be restarted"
+    IDS_UPDATE_SUCCESS      "Update %s to %s success"
+    IDS_COPY_TEMPFILE_FAILED "Failed to update %s to %s failed to copy temporary files"
+    IDS_PROCESS_SHARING_FAILED "Failed to update %s to %s Failed to process conflict file"
+    IDS_UPDATE_SUCCESS_NEED_RESET "Update %s to %s Success: File conflict, need to restart"
+    IDS_UPDATE_SHARING_SUCCESS 
+                            "Update %s to %s success: file conflict, need to be restarted to complete the update"
+    IDS_UPDATE_FINISH_FAILED "Update file failed, please upgrade again!"
+    IDS_UPDATE_FINISH_SUCCESS "Update the file successfully, congratulations!"
+    IDS_NOTIFY_REUPDATE     "In order to ensure the normal operation of the program, please run the program after the upgrade is successful. \r\nYou can choose to upgrade from the LAN or local, select the directory saved by the file download to upgrade, no need to re-download the file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NEED_REBOOT         "To update the file you are using, please restart your computer."
+    IDS_DOWNLOAD_FILE_FAILED "Failed to download file %s to %s"
+    IDS_DOWNLOAD_FILE_SUCCESSFUL "Download file %s to %s succeeded"
+    IDS_INVALID_USERCHECK   "I am very sorry, the serial number has not been verified by the server, your serial number may be incomplete or due to network transmission error, please upgrade later!"
+    IDS_PIRATIC_SERIAL_NUMBER 
+                            "I am very sorry, your serial number may be illegally used by other users and cannot be verified by the upgrade."
+    IDS_INHIBITIVE_SERIAL_NUMBER 
+                            "I am very sorry, your serial number has been disabled."
+    IDS_CONNECT_SERVER_FAILED 
+                            "I am very sorry, because the server is busy or is being updated, please upgrade later!"
+    IDS_CHECK_SERIAL_NUMBER_ERROR 
+                            "I am very sorry, because the network is busy, the server can't connect, please upgrade later!"
+    IDS_HTTP_CHECK_FAILED   "Failed to authenticate user with HTTP!"
+    IDS_USE_HTTP_CHECK      "Failed with UDP authentication, using HTTP authentication."
+    IDS_HTTP_CHECK_SUCCESSFUL "Authenticate user identity with HTTP!"
+    IDS_UDP_CHECK_SUCCESSFUL "Verify user identity with UDP successfully!"
+    IDS_INDEX_ERRORANALYSIS "An error occurred while parsing the downloaded upgrade information file. Please select another upgrade server to re-upgrade."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\UpdateDLL.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

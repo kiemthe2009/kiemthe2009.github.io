@@ -1,0 +1,55 @@
+﻿Build started 9/3/2023 11:00:14 PM.
+     1>Project "F:\AutoUpdateKS\Autoupdate\Autoupdate.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\Autoupdate.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Release\Autoupdate.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\Autoupdate.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\Autoupdate.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt AnnuncePanel.cpp Autoupdate.cpp AutoupdateDlg.cpp DefaultProcess.cpp GameOptionPanel.cpp HyperlinkStatic.cpp ItermProcess.cpp ItermProcessTypeCheck.cpp lientGameOptionProcess.cpp RecordProcess.cpp SiteDlg.cpp StartDlg.cpp webbrowser2.cpp
+         AnnuncePanel.cpp
+         Autoupdate.cpp
+         AutoupdateDlg.cpp
+         DefaultProcess.cpp
+         GameOptionPanel.cpp
+         HyperlinkStatic.cpp
+         ItermProcess.cpp
+         ItermProcessTypeCheck.cpp
+         lientGameOptionProcess.cpp
+         RecordProcess.cpp
+         SiteDlg.cpp
+         StartDlg.cpp
+         webbrowser2.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Release\Autoupdate.res" Autoupdate.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\Autoupdate.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:".\Release\Autoupdate.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"F:\AutoUpdateKS\Autoupdate\Release\Autoupdate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Autoupdate.lib" /MACHINE:X86 .\Release\Autoupdate.res
+         .\Release\AnnuncePanel.obj
+         .\Release\Autoupdate.obj
+         .\Release\AutoupdateDlg.obj
+         .\Release\DefaultProcess.obj
+         .\Release\GameOptionPanel.obj
+         .\Release\HyperlinkStatic.obj
+         .\Release\ItermProcess.obj
+         .\Release\ItermProcessTypeCheck.obj
+         .\Release\lientGameOptionProcess.obj
+         .\Release\RecordProcess.obj
+         .\Release\SiteDlg.obj
+         .\Release\StartDlg.obj
+         .\Release\StdAfx.obj
+         .\Release\webbrowser2.obj
+         Autoupdate.vcxproj -> F:\AutoUpdateKS\Autoupdate\.\Release\Autoupdate.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\Autoupdate.exe;#1" /manifest .\Release\Autoupdate.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Release\Autoupdate.bsc" .\Release\AnnuncePanel.sbr .\Release\Autoupdate.sbr .\Release\AutoupdateDlg.sbr .\Release\DefaultProcess.sbr .\Release\GameOptionPanel.sbr .\Release\HyperlinkStatic.sbr .\Release\ItermProcess.sbr .\Release\ItermProcessTypeCheck.sbr .\Release\lientGameOptionProcess.sbr .\Release\RecordProcess.sbr .\Release\SiteDlg.sbr .\Release\StartDlg.sbr .\Release\StdAfx.sbr .\Release\webbrowser2.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Release\Autoupdate.unsuccessfulbuild".
+         Touching ".\Release\Autoupdate.lastbuildstate".
+     1>Done Building Project "F:\AutoUpdateKS\Autoupdate\Autoupdate.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.61
