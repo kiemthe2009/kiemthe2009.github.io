@@ -11,12 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
+    <SccProjectName>"$/Utility/Sources/Autoupdate", BPIAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
     <Keyword>MFCProj</Keyword>
-    <ProjectGuid>{4C334CB4-ED75-09EA-3B41-11E4A6CF463B}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -128,7 +125,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <OutputFile>Release/Jxonline.exe</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
