@@ -22,6 +22,19 @@
             color-adjust: exact !important; /*Firefox*/
         }
     </style>
+
+    <script>
+        const textElement = document.getElementById('myText');
+        const maxWidth = 200; // Chiều rộng tối đa của phần tử
+
+        function truncateText() {
+        while (textElement.offsetWidth > maxWidth) {
+            textElement.textContent = textElement.textContent.slice(0, -1);
+        }
+        }
+
+        truncateText(); // Gọi hàm khi trang web được tải
+    </script>
 </head>
 <body style="padding:5px"><div class='div-Break'><div class='div-child'>
 
@@ -51,7 +64,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div style="float: right;">
+                            <div id="myText" style="float: right;">
                                 <div style="position: relative; float: right; width: 100%;;top:-5px;right:0" class="divprootprice">
                                     <p style="float: right;position: relative;;font-family:Bahnschrift SemiCondensed;font-size:46pt;color:#000;right:70px;top:-3px;transform:scaleX(0.85) scaleY(1)" class="prootprice">
                                         <span class="rootprice">1.815.000</span><span class="vndroot" style="position: absolute;;font-family:Bahnschrift SemiCondensed;font-size:28pt;color:#000;top:1px;right:-18px">đ</span>
