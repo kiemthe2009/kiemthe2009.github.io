@@ -1,0 +1,65 @@
+﻿@font-face {
+    font-family: Bahnschrift-SemiBold-SemiConden;
+    src: url('./fonts/bahnschrift.ttf');
+}
+@font-face {
+    font-family: Bahnschrift SemiLight SemiConde;
+    font-weight:100;
+    src: url('./fonts/bahnschrift.ttf');
+}
+@font-face {
+    font-family: SVN-Gilroy;
+    src: url('./fonts/SVN-Gilroy Thin.otf');
+}
+@font-face {
+    font-family: SVN-Gilroy SemiBold;
+    src: url('./fonts/SVN-Gilroy SemiBold.otf');
+}
+@font-face {
+    font-family: SVN-Gilroy Medium;
+    src: url('./fonts/SVN-Gilroy Medium.otf');
+}
+
+@font-face {
+    font-family: SVN-Gilroy XBold;
+    src: url('./fonts/SVN-Gilroy XBold.otf');
+}
+
+body {
+    font-weight: 800;
+			margin-left:15px!important
+}
+.txtoff{display:none}
+p {
+    padding: 0;
+    margin: 0
+}
+
+.nameitemen {
+    text-align: center;
+    border: 2px solid #fff;
+    border-left: 0!important;
+    border-right: 0!important;
+    margin: 0 5px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 23pt;
+    clear: both;
+    font-family: Bahnschrift SemiLight SemiConde;
+}
+
+td, .div-child {
+    margin: 1px 0;
+    vertical-align: top;
+    text-align: center;
+    padding: 1px;
+    float: left
+}
+
+tr, .div-Break {
+    page-break-after: always;margin-top:15px;clear:both
+}
+body {
+   
+    margin: auto;
+}
