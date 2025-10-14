@@ -1,0 +1,10 @@
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\bin\Debug\PermissionFolder.exe.config
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\bin\Debug\PermissionFolder.exe
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\bin\Debug\PermissionFolder.pdb
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.csprojAssemblyReference.cache
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.Form1.resources
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.Properties.Resources.resources
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.csproj.GenerateResource.cache
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.csproj.CoreCompileInputs.cache
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.exe
+C:\Users\nguyenthao\Desktop\PermissionFolder\PermissionFolder\obj\Debug\PermissionFolder.pdb
