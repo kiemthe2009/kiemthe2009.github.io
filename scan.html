@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác nhận Quét Thẻ (JS/Sheet)</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        .success { color: #28a745; }
+        .error { color: #dc3545; }
+    </style>
+</head>
+<body>
+    <h1>Đang ghi nhận lượt quét...</h1>
+    <div id="result">Vui lòng chờ.</div>
+
+    <script>
+        const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbwZTFoTQcFC_7pEEHkV_JX4Kl-5QhGkJal2jrAeStG5yYi2M38kIO-CGSMT_ZdGs1P2/exec'; 
+
+        // Hàm lấy tham số từ URL (ví dụ: ?code=SP001)
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        async function recordScan() {
+            const productCode = getQueryParam('code');
+            const resultDiv = document.getElementById('result');
+
+            if (!productCode) {
+                resultDiv.innerHTML = '<h2 class="error">🚨 LỖI: Không tìm thấy mã sản phẩm (code).</h2>';
+                return;
+            }
+
+            resultDiv.innerHTML = `Đang gửi dữ liệu cho mã: <strong>${productCode}</strong>...`;
+
+            try {
+                // Tạo URL với các tham số (dùng GET hoặc POST, Apps Script xử lý được cả hai)
+                const fetchUrl = `${SHEET_API_URL}?code=${productCode}&device=${navigator.userAgent}`;
+                
+                const response = await fetch(fetchUrl);
+                const data = await response.json();
+
+                if (data.status === "SUCCESS") {
+                    resultDiv.innerHTML = `<h2 class="success">✅ QUÉT THÀNH CÔNG!</h2>
+                                          <p>Sản phẩm <strong>${productCode}</strong> đã được ghi nhận.</p>
+                                          <p>Thời gian: ${new Date().toLocaleString('vi-VN')}</p>`;
+                } else {
+                    resultDiv.innerHTML = `<h2 class="error">🚨 LỖI GHI DỮ LIỆU!</h2><p>${data.message || 'Lỗi không xác định.'}</p>`;
+                }
+
+            } catch (error) {
+                resultDiv.innerHTML = `<h2 class="error">🚨 LỖI KẾT NỐI MẠNG!</h2><p>Không thể kết nối đến dịch vụ ghi dữ liệu.</p>`;
+                console.error('Error recording scan:', error);
+            }
+        }
+
+        recordScan();
+    </script>
+</body>
+</html>
